@@ -1,0 +1,24 @@
+:root{
+  --text-gray : #5a5a5a;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color : var(--text-gray);
+}
+
+img{
+  cursor: pointer;
+}
+
+.flex-div{
+  display: flex;
+  align-items: center;
+}
